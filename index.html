@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    <title>Agenda De Contatos</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="fotos/logo.png" alt="logo da agenda de contatos">
+            <h1>Agenda de Contatos</h1>
+        </header>
+        <form id="formulario">
+            <input type="text" id="nome" placeholder="Digite o Nome" required >
+            <input type="text" id="numero" placeholder="(00) 9 0000-0000" required >
+            <button type="submit">ADD+</button>
+            <button type="reset" id="reset">Clear</button>      
+        </form>
+        <Table cellspacing="0" >
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Contato</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+
+        </Table>
+        <footer>
+            &copy Todos os direitos reservados . Agenda de Contatos . Watillas Matheus.
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
